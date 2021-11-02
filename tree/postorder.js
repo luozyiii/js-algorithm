@@ -26,6 +26,7 @@ const postorder2 = (root) => {
             stack.push(n.right)
         }
     }
+    console.log(outputStack)
     while(outputStack.length) {
         const n = outputStack.pop();
         console.log(n.val);

@@ -22,6 +22,7 @@ const inorder2 = (root) => {
             stack.push(p);
             p = p.left;
         }
+        console.log(stack)
         const n = stack.pop();
         console.log(n.val);
         p = n.right
