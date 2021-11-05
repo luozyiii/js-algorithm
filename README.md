@@ -2,9 +2,19 @@
 Javascript数据结构与算法学习
 
 ## 将要学习的数据结构
-- 栈、队列、链表
-- 集合、字典
-- 树、堆、图
+### 栈、队列、链表
+- [栈](https://github.com/luozyiii/js-algorithm/tree/main/stack)
+- [队列](https://github.com/luozyiii/js-algorithm/tree/main/queue)
+- [链表](https://github.com/luozyiii/js-algorithm/tree/main/linkedList)
+
+### 集合、字典
+- [集合](https://github.com/luozyiii/js-algorithm/tree/main/set)
+- [字典](https://github.com/luozyiii/js-algorithm/tree/main/map)
+
+### 树、堆、图
+- [树](https://github.com/luozyiii/js-algorithm/tree/main/tree)
+- [堆](https://github.com/luozyiii/js-algorithm/tree/main/heap)
+- [图](https://github.com/luozyiii/js-algorithm/tree/main/graph)
 
 ## 将要学习的算法
 - 链表：遍历链表、删除链表节点
