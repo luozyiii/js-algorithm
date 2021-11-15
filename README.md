@@ -21,6 +21,12 @@ Javascript数据结构与算法学习
 - 树、图：深度/广度优先遍历
 - 数组：冒泡/选择/插入/归并/快速排序、顺序/二分搜索
 
+- [排序和搜索](https://github.com/luozyiii/js-algorithm/tree/main/sort)
+- [分而治之](https://github.com/luozyiii/js-algorithm/tree/main/divideAndConquer)
+- [动态规划](https://github.com/luozyiii/js-algorithm/tree/main/DynamicPlanning)
+- [贪心算法](https://github.com/luozyiii/js-algorithm/tree/main/greedy)
+- [回溯算法](https://github.com/luozyiii/js-algorithm/tree/main/backtrack)
+
 ## 时间/空间复杂度
 
 ### 时间复杂度是什么？
