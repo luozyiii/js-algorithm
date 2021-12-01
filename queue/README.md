@@ -27,6 +27,7 @@
 - 队列的长度就是最近请求次数
 
 ### LeetCode：933 最近的请求次数
+[link](https://leetcode-cn.com/problems/number-of-recent-calls/)
 
 #### 解题思路
 - 越早发出的请求越早不在最近3000ms内的请求里
@@ -72,6 +73,10 @@ console.log(2)
 
 #### 事件循环与任务队列
 ![queue](./assets/queue.png)
+- Event Loop：事件循环
+- Callback Queue：任务队列
+- JS： JS引擎，用于执行代码
+- WebAPIs：执行异步代码，回调函数放到 Callback Queue
 
 ### 总结
 - 队列是一个 `先进先出` 的数据结构
