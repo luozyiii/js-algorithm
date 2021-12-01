@@ -12,7 +12,7 @@ inorder(bt) // 4 2 5 1 6 3 7
 
 console.log('-------------')
 
-// 非递归版 栈
+// 非递归版 栈-后进先出
 const inorder2 = (root) => {
     if(!root) return
     const stack = [];

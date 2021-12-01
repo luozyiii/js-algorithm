@@ -10,7 +10,7 @@ const preorder = (root) => {
 preorder(bt) // 1 2 4 5 3 6 7
 console.log('-------------')
 
-// 非递归版 栈
+// 非递归版 栈-后进先出
 const preorder2 = (root) => {
     if(!root) return
     const stack = [root];
