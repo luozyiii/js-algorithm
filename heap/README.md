@@ -12,8 +12,8 @@
 - 父节点位置是 (index - 1) / 2
 
 #### 堆的应用
-- 堆能高效、快速地找出最大值和最小值，时间复杂度：O(1)
-- 找出第K个最大（小）元素
+- 堆能`高效、快速`地找出`最大值和最小值`，时间复杂度：O(1)
+- 找出`第K个`最大（小）元素
 
 #### 第K个最大元素
 - 构建一个最小堆，并将元素依次插入堆中
@@ -142,6 +142,8 @@ var findKthLargest = function(nums, k) {
 ```
 
 ### LeetCode：347 前 K 个高频元素
+[link](https://leetcode-cn.com/problems/top-k-frequent-elements/)
+
 ```javascript
 class MinHeep {
     constructor() {
@@ -232,6 +234,7 @@ var topKFrequent = function(nums, k) {
 ```
 
 ### LeetCode：23 合并K个排序链表
+[link](https://leetcode-cn.com/problems/merge-k-sorted-lists/)
 
 #### 解题思路
 - 新链表的下一个节点一定是 k 个链表头中最小节点
