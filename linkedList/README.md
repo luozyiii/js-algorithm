@@ -14,6 +14,7 @@
 - 可以用 Object 模拟链表
 
 ### LeetCode：237 删除链表中的节点
+[link](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)
 
 #### 解题思路
 - 无法直接获取被删除节点的上个节点
