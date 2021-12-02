@@ -11,6 +11,8 @@
 - 通常需要递归来模拟所有的路
 
 ### LeetCode：46 全排列
+[link](https://leetcode-cn.com/problems/permutations/)
+
 ```
 输入：nums = [1,2,3]
 输出：[[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]
@@ -50,6 +52,8 @@ var permute = function(nums) {
 ```
 
 ### LeetCode：78 子集
+[link](https://leetcode-cn.com/problems/subsets/)
+
 ```
 输入：nums = [1,2,3]
 输出：[[],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]]
