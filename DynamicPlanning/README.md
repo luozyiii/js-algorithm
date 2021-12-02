@@ -12,6 +12,7 @@
 - 反复执行：从2循环到n，执行上述公式
 
 ### LeetCode：70 爬楼梯
+[link](https://leetcode-cn.com/problems/climbing-stairs/)
 
 #### 解题思路
 - 爬到第n阶可以在第 n-1 阶爬1个台阶，或者在第 n-2 阶爬了2个台阶
@@ -55,6 +56,7 @@ var climbStairs = function(n) {
 ```
 
 ### LeetCode：198 打家劫舍
+[link](https://leetcode-cn.com/problems/house-robber/)
 
 #### 解题思路
 - f(k) = 从前k个房屋中能偷窃到的最大数额
