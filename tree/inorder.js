@@ -30,3 +30,26 @@ const inorder2 = (root) => {
 }
 inorder2(bt)
 console.log('-------------')
+
+
+// 入栈 左 -> 右
+// 出栈 左 -> 中 -> 右
+var inorderTraversal = function(root, res = []) {
+    const stack = [];
+    let cur = root; // 指针
+    while(stack.length || cur) {
+        if(cur) {
+            stack.push(cur);
+            // 左
+            cur = cur.left;
+        } else {
+            // --> 弹出 中
+            cur = stack.pop();
+            res.push(cur.val); 
+            // 右
+            cur = cur.right;
+        }
+    };
+    return res;
+};
+console.log(inorderTraversal(bt))
